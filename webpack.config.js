@@ -23,8 +23,9 @@ module.exports = {
     // devtool is where we can specify the type of source map we want
     devtool: 'cheap-module-eval-source-map',
     devServer: {
-      contentBase: path.join(__dirname, 'public')
+      contentBase: path.join(__dirname, 'public'),
+      historyApiFallback: true
     }
 };
 
-// loader
+ 
