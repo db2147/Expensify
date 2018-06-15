@@ -15,3 +15,7 @@ button:disabled { // if we don't add items, the cursor stays
     cursor: default;
 }
 
+.is-active {
+    font-weight: bold;
+}
+
